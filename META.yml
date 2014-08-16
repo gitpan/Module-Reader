@@ -1,26 +1,27 @@
 ---
 abstract: 'Read the source of a module like perl does'
 author:
-  - 'Graham Knop <haarg@haarg.org>'
+  - 'haarg - Graham Knop (cpan:HAARG) <haarg@haarg.org>'
 build_requires:
-  Test::More: 0.88
+  Test::More: '0'
 configure_requires:
-  ExtUtils::MakeMaker: 6.3
+  ExtUtils::MakeMaker: '0'
 dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.82, CPAN::Meta::Converter version 2.132830'
+generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.141520'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
-name: Module-Reader
+  version: '1.4'
+name: Module::Reader
 no_index:
   directory:
     - t
     - inc
 requires:
-  Scalar::Util: 0
-  perl: 5.006
+  Scalar::Util: '0'
+  perl: '5.006'
 resources:
-  homepage: http://github.com/haarg/Module-Reader
-  repository: git://github.com/haarg/Module-Reader.git
-version: 0.002001
+  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Module-Reader
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/haarg/Module-Reader
+version: '0.002002'

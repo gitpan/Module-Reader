@@ -1,10 +1,10 @@
 {
    "abstract" : "Read the source of a module like perl does",
    "author" : [
-      "Graham Knop <haarg@haarg.org>"
+      "haarg - Graham Knop (cpan:HAARG) <haarg@haarg.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.82, CPAN::Meta::Converter version 2.132830",
+   "generated_by" : "ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.141520",
    "license" : [
       "perl_5"
    ],
@@ -12,7 +12,7 @@
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
-   "name" : "Module-Reader",
+   "name" : "Module::Reader",
    "no_index" : {
       "directory" : [
          "t",
@@ -21,28 +21,42 @@
    },
    "prereqs" : {
       "build" : {
-         "requires" : {
-            "Test::More" : "0.88"
-         }
+         "requires" : {}
       },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.3"
+            "ExtUtils::MakeMaker" : "0"
          }
+      },
+      "develop" : {
+         "requires" : {}
       },
       "runtime" : {
          "requires" : {
             "Scalar::Util" : "0",
             "perl" : "5.006"
          }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0"
+         }
       }
    },
    "release_status" : "stable",
    "resources" : {
-      "homepage" : "http://github.com/haarg/Module-Reader",
+      "bugtracker" : {
+         "mailto" : "bug-Module-Reader@rt.cpan.org",
+         "web" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Module-Reader"
+      },
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
       "repository" : {
-         "url" : "git://github.com/haarg/Module-Reader.git"
+         "type" : "git",
+         "url" : "git://github.com/haarg/Module-Reader",
+         "web" : "https://github.com/haarg/Module-Reader"
       }
    },
-   "version" : "0.002001"
+   "version" : "0.002002"
 }
